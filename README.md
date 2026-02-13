@@ -2,6 +2,9 @@
 
 A small, file-based control framework for running LLM agents in a predictable, human-in-the-loop workflow.
 
+![Demo](assets/demo.gif)
+
+
 Design goals:
 - Deterministic startup and resume behavior
 - Clear role separation (Architect vs Planner vs Debugger, etc.)
