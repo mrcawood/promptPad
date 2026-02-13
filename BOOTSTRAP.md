@@ -1,5 +1,7 @@
 # BOOTSTRAP
 
+<!-- . = "$LP/docs/promptPad" (use this to resolve absolute paths for roles/, workflows/, etc.) -->
+
 You are operating under an external control framework.
 
 Your behavior is governed by:
