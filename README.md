@@ -40,7 +40,7 @@ Design goals:
 ### Start a session (recommended)
 Give the agent this instruction:
 
-- "Your instructions are in $LP/docs/llm_context/BOOTSTRAP.md"
+- "Your instructions are in BOOTSTRAP.md"
 
 BOOTSTRAP.md forces the agent to load LAUNCH.md and begin the dispatcher flow (artifact inventory -> proposal -> approval).
 
@@ -54,14 +54,14 @@ Then start the agent via BOOTSTRAP.md. LAUNCH.md should classify the state as RE
 ### Recover from a tangent
 When a discussion drifted and you want to get back on rails:
 
-- "Tangent complete. Run $LP/docs/llm_context/RETURN.md"
+- "Tangent complete. Run RETURN.md"
 
 RETURN.md re-reads PROGRESS.md, proposes the next unfinished task, and asks for approval.
 
 ### Save state / handoff
 When you want to checkpoint the work (end of day, context window pressure, etc.):
 
-- "Run $LP/docs/llm_context/SAVING_PROGRESS.md"
+- "Run SAVING_PROGRESS.md"
 
 This updates PROGRESS.md using a consistent schema so a future session can resume quickly.
 

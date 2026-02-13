@@ -4,12 +4,12 @@ You are operating under an external control framework.
 
 Your behavior is governed by:
 
-$LP/docs/llm_context/LAUNCH.md
+LAUNCH.md
 
 This file is executable process (not documentation).
 
 Instructions:
-1) Read $LP/docs/llm_context/LAUNCH.md fully.
+1) Read LAUNCH.md fully.
 2) Follow it exactly.
 3) Do not do any project work before completing the dispatcher flow.
 4) Do not summarize LAUNCH.md.
