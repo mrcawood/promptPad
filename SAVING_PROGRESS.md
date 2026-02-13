@@ -8,10 +8,12 @@ Purpose:
 Another LLM (or a future session) should be able to resume immediately with zero chat history.
 
 Rules:
-1) Do not delete existing content unless it is clearly incorrect or contradictory.
-2) Merge new information into existing sections where appropriate.
-3) Prefer additive updates over rewrites.
-4) Be concise, technical, and factual. No narrative fluff.
+1) Assume multi-tenancy: PROGRESS.md is shared space. Multiple roles/agents may contribute. You may insert or modify content. Be wary of removing content unless it is your role to do so.
+2) Task completion: Only mark a task complete if you (in your current role) actually did it. Do not mark tasks complete on behalf of other roles.
+3) Do not delete existing content unless it is clearly incorrect or contradictory.
+4) Merge new information into existing sections where appropriate.
+5) Prefer additive updates over rewrites.
+6) Be concise, technical, and factual. No narrative fluff.
 
 Update these sections (create if missing):
 

@@ -24,11 +24,12 @@ Design goals:
   - ASKING_FOR_HELP.md - switch to guidance when blocked by privileges/environment
   - GIT_WORKFLOW.md - optional git change-management rules
 
-- roles/ - role prompts (no code by default; each ends in an approval gate)
+- roles/ - role prompts (each ends in an approval gate)
   - ARCHITECT.md
   - PLANNER.md
   - RESEARCHER.md
   - DEBUGGER.md
+  - DEVELOPER.md (writes code; others produce plans/proposals)
   - OPTIMIZER.md
   - REFACTORER.md
   - HPC_USESPACE.md

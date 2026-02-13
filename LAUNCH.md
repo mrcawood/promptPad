@@ -18,7 +18,7 @@ List what you found.
 ## Step 2 - Classify Project State
 - RESUME: PRD + PROGRESS exist
 - PARTIAL_START: PRD exists, PROGRESS missing
-- PARTIAL_CONTEXT: PROGRESS exists, PRD missing
+- PARTIAL_CONTEXT: PROGRESS exists, PRD missing (normal when Current Phase is Debugging)
 - NEW: no artifacts
 
 ## Step 3 - Decision Gates
@@ -31,11 +31,13 @@ PARTIAL_START:
 RESUME:
 1) Read PROGRESS.md.
 2) Identify the next phase/task from PROGRESS.md.
-3) Recommend roles/PLANNER.md if the path is concrete; otherwise roles/ARCHITECT.md.
+3) Recommend roles/DEVELOPER.md when the next task is implementation (code to write, fix to apply, refactor, or optimization to implement).
+4) Recommend roles/PLANNER.md if the path is concrete but not yet planned; otherwise roles/ARCHITECT.md.
 
 PARTIAL_CONTEXT:
 1) Read PROGRESS.md.
-2) Recommend mode as for RESUME, but warn that PRD is missing.
+2) If Current Phase is Debugging: treat as for RESUME. Do not expect or warn about missing - PRD often runs ad-hoc.
+3) Otherwise: recommend mode as for RESUME, but warn that PRD is missing.
 
 NEW:
 1) Recommend roles/ARCHITECT.md first.
