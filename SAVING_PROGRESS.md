@@ -62,9 +62,12 @@ Hard requirements, non-goals, preferences.
 Bullets summarizing what was done this session.
 
 ## Proposed Next Step (Requires Approval)
-- Recommendation
-- Brief justification
-- Confidence (High/Medium/Low)
+- NextRole: roles/<ROLE>.md
+- Trigger: none | uncertainty | risk | correctness | ship | maintain | context | integration
+- TriggeredRole: roles/<ROLE>.md (only if Trigger is set)
+- Why: one sentence
+- Confidence: High | Medium | Low
+- IfLowConfidence: what would raise confidence (if not High)
 - Alternatives (if relevant)
 End with: Status: Awaiting user approval.
 

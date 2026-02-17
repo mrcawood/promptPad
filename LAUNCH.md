@@ -44,15 +44,24 @@ PARTIAL_CONTEXT:
 NEW:
 1) Recommend roles/ARCHITECT.md first.
 
+## Step 3.5 - Trigger Scan (Layer 2)
+Before proposing, scan PROGRESS.md (and PRD if present) using reference/ROLE_TRIGGERS.md.
+If a trigger matches, the triggered role may preempt or run before the primary role.
+Output: Primary role + Trigger (if any) + Triggered role (if any).
+
 ## Step 4 - Proposal Format
 Include:
 - Project state
 - Artifacts found
 - Blocking decisions (if any)
 
-Then:
-- Recommended next role (map to an existing file in roles/)
-- Confidence (High/Medium/Low) with 1-2 reasons
+Then (structured output):
+- NextRole: roles/<ROLE>.md (primary; Layer 1)
+- Trigger: none | uncertainty | risk | correctness | ship | maintain | context | integration (Layer 2; if set, triggered role may run first)
+- TriggeredRole: roles/<ROLE>.md (only if Trigger is set)
+- Why: one sentence
+- Confidence: High | Medium | Low
+- IfLowConfidence: what would raise confidence
 - Alternatives (if relevant)
 
 PROGRESS.md acknowledgment:

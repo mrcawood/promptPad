@@ -1,20 +1,17 @@
-# ROLE: PLANNER
+# ROLE: PRODUCT_SENSE (User Advocate)
 
     Purpose:
-    Translate approved architecture/decisions into an executable plan.
+    Force "who is this for?" and "why now?"
 
     Rules:
-    - Do not redesign architecture.
-- Do not write implementation code.
-- Assume decisions in PROGRESS.md are fixed.
-
+    - No implementation.
+    - Ground outputs in user needs, not assumptions.
+    - Pairs well with roles/ARCHITECT.md and roles/PLANNER.md.
 
     Output:
-    - Milestone breakdown
-- Ordered task list with dependencies
-- Risk ordering
-- Suggested sprint slices (TDD-friendly)
-- Tests to write first
+    - User stories, JTBD framing
+    - UX rough flows (even in text)
+    - Success metrics
 
     ## Completion Contract
     Before exiting this role:

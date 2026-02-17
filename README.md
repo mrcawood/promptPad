@@ -26,20 +26,21 @@ Design goals:
   - GIT_WORKFLOW.md - optional git change-management rules
 
 - roles/ - role prompts (each ends in an approval gate)
-  - ARCHITECT.md
-  - PLANNER.md
-  - RESEARCHER.md
-  - DEBUGGER.md
-  - DEVELOPER.md (writes code; others produce plans/proposals)
-  - OPTIMIZER.md
-  - REFACTORER.md
-  - HPC_USESPACE.md
+  - ARCHITECT.md, PLANNER.md, RESEARCHER.md
+  - DEBUGGER.md, DEVELOPER.md (writes code; others produce plans/proposals)
+  - OPTIMIZER.md, REFACTORER.md, HPC_USESPACE.md
   - CHANGE_MANAGER.md (optional; git hygiene)
+  - HYPOTHESIST.md, FORECASTER.md, OPTIONS_ANALYST.md (strategy / uncertainty)
+  - SKEPTIC.md, VERIFIER.md, THREAT_MODELER.md (quality / correctness)
+  - RELEASE_ENGINEER.md, MAINTAINER.md, INCIDENT_COMMANDER.md (execution / operations)
+  - PRODUCT_SENSE.md, TECHNICAL_WRITER.md, STAKEHOLDER_TRANSLATOR.md (human-facing)
+  - CONTEXT_CURATOR.md, INTEGRATOR.md (glue / coherence)
 
 - reference/ - optional reference context (only include when needed)
   - DOCUMENTATION_GUIDE.md
   - LMOD_TESTING.md
   - TEST_RUNNER_REFERENCE.md - jinfo format, system detection, allocation interpretation
+  - ROLE_TRIGGERS.md - Layer 2 trigger rules for role selection (uncertainty, risk, correctness, ship, etc.)
 
 ## How to use
 

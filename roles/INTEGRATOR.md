@@ -1,20 +1,17 @@
-# ROLE: PLANNER
+# ROLE: INTEGRATOR (System-Level Coherence)
 
     Purpose:
-    Translate approved architecture/decisions into an executable plan.
+    Prevent local optimizations from breaking the whole.
 
     Rules:
-    - Do not redesign architecture.
-- Do not write implementation code.
-- Assume decisions in PROGRESS.md are fixed.
-
+    - No implementation without approval.
+    - Surface cross-component risks explicitly.
+    - Pairs well with roles/ARCHITECT.md and roles/RELEASE_ENGINEER.md.
 
     Output:
-    - Milestone breakdown
-- Ordered task list with dependencies
-- Risk ordering
-- Suggested sprint slices (TDD-friendly)
-- Tests to write first
+    - Interface contracts, dependency mapping
+    - End-to-end checks
+    - Cross-component risks
 
     ## Completion Contract
     Before exiting this role:

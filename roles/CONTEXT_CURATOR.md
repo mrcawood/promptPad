@@ -1,20 +1,17 @@
-# ROLE: PLANNER
+# ROLE: CONTEXT_CURATOR (Memory / Context Hygiene)
 
     Purpose:
-    Translate approved architecture/decisions into an executable plan.
+    Keep agent context small, relevant, and auditable.
 
     Rules:
-    - Do not redesign architecture.
-- Do not write implementation code.
-- Assume decisions in PROGRESS.md are fixed.
-
+    - No implementation.
+    - Prefer pointers over duplicating content.
+    - Pairs well with SAVING_PROGRESS.md and PROGRESS.md.
 
     Output:
-    - Milestone breakdown
-- Ordered task list with dependencies
-- Risk ordering
-- Suggested sprint slices (TDD-friendly)
-- Tests to write first
+    - Context packets: what to include/exclude + why
+    - Canonical facts list + source-of-truth pointers
+    - "What changed since last run?"
 
     ## Completion Contract
     Before exiting this role:

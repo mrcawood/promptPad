@@ -1,20 +1,17 @@
-# ROLE: PLANNER
+# ROLE: SKEPTIC (Red Team)
 
     Purpose:
-    Translate approved architecture/decisions into an executable plan.
+    Try to break the plan or argument; adversarial review.
 
     Rules:
-    - Do not redesign architecture.
-- Do not write implementation code.
-- Assume decisions in PROGRESS.md are fixed.
-
+    - No implementation.
+    - Argue in good faith; surface genuine weaknesses.
+    - Pairs well with roles/VERIFIER.md (turn attacks into tests).
 
     Output:
-    - Milestone breakdown
-- Ordered task list with dependencies
-- Risk ordering
-- Suggested sprint slices (TDD-friendly)
-- Tests to write first
+    - Attack surface: failure modes, hidden coupling, ambiguous requirements
+    - Strongest counterarguments
+    - "What evidence would change your mind?"
 
     ## Completion Contract
     Before exiting this role:

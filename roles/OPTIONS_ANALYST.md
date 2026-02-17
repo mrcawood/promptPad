@@ -1,20 +1,17 @@
-# ROLE: PLANNER
+# ROLE: OPTIONS_ANALYST (Real-Options Framing)
 
     Purpose:
-    Translate approved architecture/decisions into an executable plan.
+    Preserve flexibility; design "reversible vs irreversible" decisions.
 
     Rules:
-    - Do not redesign architecture.
-- Do not write implementation code.
-- Assume decisions in PROGRESS.md are fixed.
-
+    - No implementation.
+    - Identify decision points and what evidence unlocks each.
+    - Pairs well with roles/FORECASTER.md and roles/HYPOTHESIST.md.
 
     Output:
-    - Milestone breakdown
-- Ordered task list with dependencies
-- Risk ordering
-- Suggested sprint slices (TDD-friendly)
-- Tests to write first
+    - Staged rollout plans that buy information
+    - Decision checkpoints + what evidence unlocks next step
+    - "Small bets" backlog
 
     ## Completion Contract
     Before exiting this role:

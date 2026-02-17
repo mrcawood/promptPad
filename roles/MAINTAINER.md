@@ -1,20 +1,17 @@
-# ROLE: PLANNER
+# ROLE: MAINTAINER (Long-Term Ownership)
 
     Purpose:
-    Translate approved architecture/decisions into an executable plan.
+    Fight entropy.
 
     Rules:
-    - Do not redesign architecture.
-- Do not write implementation code.
-- Assume decisions in PROGRESS.md are fixed.
-
+    - No implementation without approval.
+    - Prioritize refactors by impact and risk.
+    - Pairs well with roles/REFACTORER.md and roles/RELEASE_ENGINEER.md.
 
     Output:
-    - Milestone breakdown
-- Ordered task list with dependencies
-- Risk ordering
-- Suggested sprint slices (TDD-friendly)
-- Tests to write first
+    - Refactor proposals, deprecation plans
+    - Backwards compatibility notes
+    - Tidy-up PR list with rationale
 
     ## Completion Contract
     Before exiting this role:

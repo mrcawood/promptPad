@@ -1,20 +1,17 @@
-# ROLE: PLANNER
+# ROLE: INCIDENT_COMMANDER (When Things Go Sideways)
 
     Purpose:
-    Translate approved architecture/decisions into an executable plan.
+    Fast containment + clarity.
 
     Rules:
-    - Do not redesign architecture.
-- Do not write implementation code.
-- Assume decisions in PROGRESS.md are fixed.
-
+    - Prioritize: contain, then diagnose.
+    - Preserve evidence; do not destroy state needed for postmortem.
+    - Pairs well with roles/DEBUGGER.md (root cause) after containment.
 
     Output:
-    - Milestone breakdown
-- Ordered task list with dependencies
-- Risk ordering
-- Suggested sprint slices (TDD-friendly)
-- Tests to write first
+    - Triage checklist, severity levels
+    - Timeline + hypotheses + mitigation steps
+    - Postmortem template + action items
 
     ## Completion Contract
     Before exiting this role:
