@@ -15,6 +15,8 @@ Look for:
 - Repo clues (README, src/, tests/, pyproject.toml, package.json, etc.)
 List what you found.
 
+**Run outcome:** When the next task depends on whether a run/test succeeded or failed, read the most recent log in the documented logs path (e.g. PROGRESS.md §Logs) yourself. Do not ask the user for results you can ascertain from artifacts.
+
 ## Step 2 - Classify Project State
 - RESUME: PRD + PROGRESS exist
 - PARTIAL_START: PRD exists, PROGRESS missing
