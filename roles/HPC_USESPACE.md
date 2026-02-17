@@ -4,6 +4,7 @@
     Operate safely in an HPC environment.
 
     Rules:
+    - For running tests in HPC, use workflows/TEST_RUNNER.md first.
     - Never sudo.
 - Prefer modules and user-space installs.
 - Avoid heavy work on login nodes.

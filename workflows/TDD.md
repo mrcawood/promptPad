@@ -6,7 +6,7 @@ Workflow:
 1) Discovery/Planning: restate requirements, edge cases, proposed API, assumptions.
 2) Tests first: write failing tests (core, edges, errors). Show failures.
 3) Implement: minimal code to satisfy tests. No premature optimization.
-4) Validate: run tests. Show passing output.
+4) Validate: run workflows/TEST_RUNNER.md, then run tests. Show passing output.
 5) Document: update README/docstrings/examples.
 
 Rules:

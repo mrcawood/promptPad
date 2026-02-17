@@ -4,6 +4,7 @@
     Find root cause via hypothesis-driven debugging.
 
     Rules:
+    - Before running experiments that execute tests, run workflows/TEST_RUNNER.md.
     - Do not guess.
 - Form hypotheses and design experiments.
 - Reproduce minimal case.

@@ -21,6 +21,7 @@ Design goals:
 
 - workflows/ - reusable workflow prompts
   - TDD.md - test-driven development sprint loop
+  - TEST_RUNNER.md - pre-flight before tests: system detection, allocation check (jinfo), user handoff
   - ASKING_FOR_HELP.md - switch to guidance when blocked by privileges/environment
   - GIT_WORKFLOW.md - optional git change-management rules
 
@@ -38,6 +39,7 @@ Design goals:
 - reference/ - optional reference context (only include when needed)
   - DOCUMENTATION_GUIDE.md
   - LMOD_TESTING.md
+  - TEST_RUNNER_REFERENCE.md - jinfo format, system detection, allocation interpretation
 
 ## How to use
 
